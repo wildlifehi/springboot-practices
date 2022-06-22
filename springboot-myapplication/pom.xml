@@ -1,20 +1,16 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>com.douzone</groupId>
-  <artifactId>springboot-myapplication</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-
- <!-- 부모 스타터 -->
+	<modelVersion>4.0.0</modelVersion>
+	
+	<!-- 부모 스타터 -->
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.6.4</version>
 		<!-- 레포지토리 부모 검색 -->
 		<relativePath /> 
-	</parent>	
-	
-	
- 	<groupId>com.douzone</groupId>
+	</parent>
+		
+	<groupId>com.douzone</groupId>
 	<artifactId>springboot-myapplication</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
@@ -48,7 +44,6 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
-	</build>			
-  
-
+	</build>		
+	
 </project>
